@@ -74,7 +74,7 @@ npm install
 
 Create a .env or .env.local in the project root for local development. Do not commit this file.
 
-```bash
+```env
 # server-only (keep secret)
 MONGODB_URI=mongodb+srv://<user>:<password>@cluster0.ynfrets.mongodb.net/<db-name>=Cluster0
 ```
