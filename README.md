@@ -51,6 +51,8 @@ A high-performance, **type-safe**, and **server-rendered** (SSR) Todo applicatio
 * Node.js (v18 or higher)
   
 * npm package manager
+  
+* MongoDB Atlas account (or any MongoDB connection string)
 
 ### Installation
 
@@ -68,7 +70,16 @@ A high-performance, **type-safe**, and **server-rendered** (SSR) Todo applicatio
     npm install
     ```
 
-3.  **Start the development server:**
+3. **Environment variables**
+
+Create a .env or .env.local in the project root for local development. Do not commit this file.
+
+    ```bash
+    # server-only (keep secret)
+    MONGODB_URI=mongodb+srv://<user>:<password>@cluster0.ynfrets.mongodb.net/<db-name>=Cluster0
+    ```
+
+4.  **Start the development server:**
 
     ```bash
     npm run dev
