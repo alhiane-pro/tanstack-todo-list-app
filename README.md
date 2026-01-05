@@ -4,6 +4,12 @@ A high-performance, **type-safe**, and **server-rendered** (SSR) Todo applicatio
 
 ---
 
+## 🔗 Demo
+
+Deployed: [tanstack-notes-app](https://tanstack-todo-list-app.vercel.app/)
+
+---
+
 ## ✨ Key Features
 
 * **Full-Stack SSR:** Built with **TanStack Start** for lightning-fast initial loads and SEO optimization.
