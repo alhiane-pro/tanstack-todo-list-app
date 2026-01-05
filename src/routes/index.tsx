@@ -79,6 +79,7 @@ function App() {
       search: (prev) => ({
         ...prev,
         status: newStatus,
+        page: 1,
       }),
     });
   };
