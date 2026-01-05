@@ -2,6 +2,8 @@
 
 A high-performance, **type-safe**, and **server-rendered** (SSR) Todo application. This project serves as a comprehensive demonstration of the **TanStack ecosystem**, featuring advanced patterns like Optimistic UI, URL-synced state, and SSR-compliant theme management.
 
+---
+
 ## ✨ Key Features
 
 * **Full-Stack SSR:** Built with **TanStack Start** for lightning-fast initial loads and SEO optimization.
