@@ -50,7 +50,7 @@ A high-performance, **type-safe**, and **server-rendered** (SSR) Todo applicatio
 
 * Node.js (v18 or higher)
   
-* pnpm (recommended) or npm
+* npm package manager
 
 ### Installation
 
