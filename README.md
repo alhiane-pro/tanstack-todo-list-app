@@ -58,32 +58,32 @@ A high-performance, **type-safe**, and **server-rendered** (SSR) Todo applicatio
 
 1.  **Clone the repository:**
 
-    ```bash
-    git clone https://github.com/alhiane-pro/tanstack-todo-list-app.git
-    
-    cd tanstack-todo-list-app
-    ```
+```bash
+git clone https://github.com/alhiane-pro/tanstack-todo-list-app.git
+
+cd tanstack-todo-list-app
+```
 
 2.  **Install dependencies:**
 
-    ```bash
-    npm install
-    ```
+```bash
+npm install
+```
 
 3. **Environment variables**
 
 Create a .env or .env.local in the project root for local development. Do not commit this file.
 
-    ```bash
-    # server-only (keep secret)
-    MONGODB_URI=mongodb+srv://<user>:<password>@cluster0.ynfrets.mongodb.net/<db-name>=Cluster0
-    ```
+```bash
+# server-only (keep secret)
+MONGODB_URI=mongodb+srv://<user>:<password>@cluster0.ynfrets.mongodb.net/<db-name>=Cluster0
+```
 
 4.  **Start the development server:**
 
-    ```bash
-    npm run dev
-    ```
+```bash
+npm run dev
+```
 
 ---
 
