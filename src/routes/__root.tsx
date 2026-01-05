@@ -28,8 +28,11 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
         content: "width=device-width, initial-scale=1",
       },
       {
-        title: "TanStack Start Starter",
+        name: "description",
+        content:
+          "A high-performance, type-safe, and server-rendered (SSR) Todo application. This project serves as a comprehensive demonstration of the TanStack ecosystem, featuring advanced patterns like Optimistic UI, URL-synced state, and SSR-compliant theme management.",
       },
+      { title: "Full-Stack TanStack Todo App" },
     ],
     links: [
       {

@@ -12,6 +12,17 @@ import {
 
 export const Route = createFileRoute("/todos/new")({
   component: RouteComponent,
+  head: async () => {
+    return {
+      meta: [
+        { title: "Add New Todo" },
+        {
+          name: "description",
+          content: "Create a new task to add to your todo list",
+        },
+      ],
+    };
+  },
 });
 
 function RouteComponent() {

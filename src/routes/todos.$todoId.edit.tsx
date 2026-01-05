@@ -34,6 +34,18 @@ export const getTodoById = async (todoId: string): Promise<ITodo> => {
 export const Route = createFileRoute("/todos/$todoId/edit")({
   component: RouteComponent,
   loader: async ({ params }) => await getTodoById(params.todoId),
+  head: async ({ params }) => {
+    const todo = await getTodoById(params.todoId);
+    return {
+      meta: [
+        { title: `Edit Todo | ${todo.title}` },
+        {
+          name: "description",
+          content: "Update the details of your todo item, " + todo.title,
+        },
+      ],
+    };
+  },
 });
 
 function RouteComponent() {
