@@ -15,7 +15,7 @@ const todoSchema = new Schema<ITodoModel>(
     title: {
       type: String,
       required: true,
-      unique: true,
+      // unique: true,
       trim: true,
       minLength: [5, "Todo title must have at least 5 characters!"],
       maxLength: [100, "Todo title musn't have more than 100 characters!"],
