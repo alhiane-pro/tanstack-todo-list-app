@@ -72,7 +72,9 @@ cd tanstack-todo-list-app
 npm install
 ```
 
-3. **Environment variables** (Create a .env or .env.local in the project root for local development. Do not commit this file)
+3. **Environment variables**
+
+Create a .env or .env.local in the project root for local development. Do not commit this file.
 
 ```env
 # server-only (keep secret)
