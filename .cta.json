@@ -1,0 +1,20 @@
+{
+  "projectName": "ssr-todo-list-app",
+  "mode": "file-router",
+  "typescript": true,
+  "tailwind": true,
+  "packageManager": "npm",
+  "addOnOptions": {},
+  "git": true,
+  "version": 1,
+  "framework": "react-cra",
+  "chosenAddOns": [
+    "nitro",
+    "start",
+    "compiler",
+    "form",
+    "shadcn",
+    "store",
+    "tanstack-query"
+  ]
+}
