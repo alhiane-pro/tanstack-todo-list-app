@@ -8,7 +8,7 @@ export function cn(...inputs: ClassValue[]) {
 
 export const getBaseUrl = () => {
   if (typeof window !== "undefined") return ""; // Browser uses relative
-  return "http://localhost:3000"; // Production should use an Env Var
+  return "https://tanstack-todo-list-app.vercel.app"; // Production should use an Env Var
 };
 
 function axiosErrorHandler(error: unknown) {
